@@ -1,0 +1,114 @@
+{
+  "NavBar": {
+    "inicio": "Início",
+    "sobre": "Sobre",
+    "noticias": "Imprensa",
+    "cadastro": "INGRESSOS",
+    "painelParticipante": "Painel do Participante"
+  },
+  "Footer": {
+    "slogan": "UM NOVO TEMPO, UMA NOVA INDÚSTRIA",
+    "cadastro": "INGRESSOS",
+    "faleConosco": "Fale conosco",
+    "follow": "Acesse nossas redes sociais"
+  },
+  "Section03": {
+    "industria": "INDÚSTRIA",
+    "inovacao": "INOVAÇÃO",
+    "sustentabilidade": "SUSTENTABILIDADE",
+    "sobre": "SOBRE",
+    "p1": "A curicaca é uma ave típica do Cerrado brasileiro, conhecida por seu dom especial: canta para anunciar mudanças. Com sua melodia, ela canta a chegada de um tempo novo.",
+    "p2": "O novo tempo será marcado pelo maior e mais completo festival de inovação, sustentabilidade, cultura e desenvolvimento tecnológico do país. Promovido pela Agência Brasileira de Desenvolvimento Industrial (ABDI) em sintonia com diversos parceiros nacionais e internacionais, Curicaca vai conectar Brasília e suas Regiões Administrativas em torno do que há de mais moderno no mundo para a indústria.",
+    "p3": "É a capital federal impulsionando o fortalecimento da indústria nacional e se consolidando como referência no calendário de grandes eventos nacionais e internacionais."
+  },
+  "Section05": {
+    "objetivos": "OBJETIVOS",
+    "objetivo1": "Consolidar a NIB como o maior projeto de modernização industrial do Brasil",
+    "objetivo2": "Promover o compartilhamento de práticas inovadoras e sustentáveis",
+    "objetivo3": "Descarbonizar a indústria Brasileira",
+    "objetivo4": "Ampliar a colaboração entre empresas, universidades e escolas técnicas",
+    "objetivo5": "Elevar o nível de maturidade tecnológica da indústria nacional",
+    "objetivo6": "Fomentar soluções tecnológicas para desafios produtivos, sociais e ambientais, com foco climático"
+  },
+  "Section06": {
+    "titulo": "10 TRILHAS DE CONHECIMENTO",
+    "t1-desc-1": "ENERGIA",
+    "t1-desc-2": "RENOVÁVEL",
+    "t1-desc-3": "E SUSTENTABILIDADE",
+    "t1-desc-4": "ENERGÉTICA",
+    
+    "t2-desc-1": "INOVAÇÃO",
+    "t2-desc-2": "EM SAÚDE E",
+    "t2-desc-3": "BIOTECNOLOGIA",
+    
+    "t3-desc-1": "TRANSFORMAÇÃO",
+    "t3-desc-2": "DIGITAL E",
+    "t3-desc-3": "INDÚSTRIA 4.0",
+    
+    "t4-desc-1": "SEGURANÇA",
+    "t4-desc-2": "E DEFESA",
+    "t4-desc-3": "TECNOLÓGICA",
+    
+    "t5-desc-1": "INDÚSTRIA",
+    "t5-desc-2": "VERDE E",
+    "t5-desc-3": "ECONOMIA",
+    "t5-desc-4": "CIRCULAR",
+    
+    "t6-desc-1": "AGROINDÚSTRIA",
+    "t6-desc-2": "SUSTENTÁVEL E",
+    "t6-desc-3": "AGRIGULTURA",
+    "t6-desc-4": "FAMILIAR",
+    
+    "t7-desc-1": "INOVAÇÃO",
+    "t7-desc-2": "SOCIAL E",
+    "t7-desc-3": "DESENVOLVIMENTO",
+    "t7-desc-4": "REGIONAL",
+    
+    "t8-desc-1": "POLÍTICAS E",
+    "t8-desc-2": "REGULAÇÃO",
+    
+    "t9-desc-1": "INFRAESTRUTURA",
+    "t9-desc-2": "SUSTENTÁVEL",
+    "t9-desc-3": "E MOBILIDADE",
+    "t9-desc-4": "VERDE",
+    
+    "t10-desc-1": "TECNOLOGIA",
+    "t10-desc-2": "CRIATIVA",
+    "t10-desc-3": "E INCLUSÃO",
+    "t10-desc-4": "DIGITAL"
+  },
+  "Section08": {
+    "titulo": "IMPRENSA",
+    "subtitulo": "Mande-nos um e-mail através do"
+  },
+  "Section09": {
+    "titulo": "CADASTRO",
+    "mensagem": "Os campos com * são de preenchimento obrigatório!",
+    "nome": "Nome",
+    "cargo": "Cargo",
+    "empresa": "Empresa",
+    "termo": "Termo de consentimento e adesão.",
+    "aceite1": "Declaro que li e aceito as normas da",
+    "aceite2": "e estou de acordo com os Termos e Regulamento.",
+    "documento": "Política de Privacidade e Proteção de Dados Pessoais",
+    "cadastrar": "Cadastrar",
+    "aguarde": "Aguardar...",
+    "mensagemCadastro": "Seu cadastro foi realizado",
+    "realizacao": "Realização",
+    "parceiros": "Parceiros"
+  },
+  "Section10": {
+    "titulo": "PROGRAMAÇÃO",
+    "subtitulo": "RETIRE SEU INGRESSO GRATUITO"
+  },
+  "Section11": {
+    "titulo": "TV CURICACA"
+  },
+  "Taguatinga": {
+    "titulo": "Festival Internacional Curicaca de Inovação e Sustentabilidade na Indústria em Taguatinga",
+    "subtitulo": "É a tecnologia como motor de desenvolvimento, de geração de oportunidades, emprego e renda!",
+    "p1": "Nos dias 24 e 25 de maio, o Festival Curicaca terá sua primeira edição na Região Administrativa de Taguatinga, com o tema “Cidade Inteligente”.",
+    "p2": "O assunto está alinhado à Missão 6 da Nova Indústria Brasil, sobre uso de tecnologias para a soberania nacional.",
+    "p3": "Em Taguatinga, trazemos exemplos de empresas e influencers locais de sucesso em diferentes áreas para pensar coletivamente como a inovação é capaz de impulsionar novos modelos, estilos de vida e formas de fazer trocas comerciais. Em destaque, está a capacidade de empreendedores se reinventarem em uma sociedade em constante transformação. São palestras, entrevistas e um workshop mão na massa nos dois dias de evento."
+  }
+}

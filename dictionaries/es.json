@@ -1,0 +1,107 @@
+{
+  "NavBar": {
+    "inicio": "Inicio",
+    "sobre": "Sobre",
+    "noticias": "Prensa",
+    "cadastro": "ENTRADAS",
+    "painelParticipante": "Panel del Participante"
+  },
+  "Footer": {
+    "slogan": "UN NUEVO TIEMPO, UNA NUEVA INDUSTRIA",
+    "cadastro": "Entradas",
+    "faleConosco": "Ponte en contacto",
+    "follow": "Visita nuestras redes sociales"
+  },
+  "Section03": {
+    "industria": "INDUSTRIA",
+    "inovacao": "INNOVACIÓN",
+    "sustentabilidade": "SOSTENIBILIDAD",
+    "sobre": "SOBRE",
+    "p1": "La curicaca es un ave típica del Cerrado brasileño, conocida por su don especial: canta para anunciar cambios. Con su melodía, canta la llegada de un nuevo tiempo.",
+    "p2": "El nuevo tiempo estará marcado por el mayor y más completo festival de innovación, sostenibilidad, cultura y desarrollo tecnológico del país. Promovido por la Agencia Brasileña de Desarrollo Industrial (ABDI) en sintonía con diversos socios nacionales e internacionales, Curicaca conectará Brasilia y sus Regiones Administrativas alrededor de lo más moderno del mundo para la industria.",
+    "p3": "Es la capital federal impulsando el fortalecimiento de la industria nacional y consolidándose como referencia en el calendario de grandes eventos nacionales e internacionales."
+  },
+  "Section05": {
+    "objetivos": "OBJETIVOS",
+    "objetivo1": "Consolidar la NIB como el mayor proyecto de modernización industrial de Brasil",
+    "objetivo2": "Promover el intercambio de prácticas innovadoras y sostenibles",
+    "objetivo3": "Descarbonizar la industria brasileña",
+    "objetivo4": "Ampliar la colaboración entre empresas, universidades y escuelas técnicas",
+    "objetivo5": "Elevar el nivel de madurez tecnológica de la industria nacional",
+    "objetivo6": "Fomentar soluciones tecnológicas para desafíos productivos, sociales y ambientales, con enfoque climático"
+  },
+  "Section06": {
+    "titulo": "10 RUTAS DE CONOCIMIENTO",
+    "t1-desc-1": "ENERGÍA",
+    "t1-desc-2": "RENOVABLE",
+    "t1-desc-3": "Y SOSTENIBILIDAD",
+    "t1-desc-4": "ENERGÉTICA",
+
+    "t2-desc-1": "INNOVACIÓN",
+    "t2-desc-2": "EN SALUD Y",
+    "t2-desc-3": "BIOTECNOLOGÍA",
+    
+    "t3-desc-1": "TRANSFORMACIÓN",
+    "t3-desc-2": "DIGITAL E",
+    "t3-desc-3": "INDUSTRIA 4.0",
+    
+    "t4-desc-1": "SEGURIDAD",
+    "t4-desc-2": "Y DEFENSA",
+    "t4-desc-3": "TECNOLÓGICA",
+    
+    "t5-desc-1": "INDUSTRIA",
+    "t5-desc-2": "VERDE Y",
+    "t5-desc-3": "ECONOMÍA",
+    "t5-desc-4": "CIRCULAR",
+    
+    "t6-desc-1": "AGROINDUSTRIA",
+    "t6-desc-2": "SOSTENIBLE Y",
+    "t6-desc-3": "AGRICULTURA",
+    "t6-desc-4": "FAMILIAR",
+    
+    "t7-desc-1": "INNOVACIÓN",
+    "t7-desc-2": "SOCIAL Y",
+    "t7-desc-3": "DESARROLLO",
+    "t7-desc-4": "REGIONAL",
+    
+    "t8-desc-1": "POLÍTICAS Y",
+    "t8-desc-2": "REGULACIÓN",
+    
+    "t9-desc-1": "INFRAESTRUCTURA",
+    "t9-desc-2": "SOSTENIBLE",
+    "t9-desc-3": "Y MOVILIDAD",
+    "t9-desc-4": "VERDE",
+    
+    "t10-desc-1": "TECNOLOGÍA",
+    "t10-desc-2": "CREATIVA",
+    "t10-desc-3": "E INCLUSIÓN",
+    "t10-desc-4": "DIGITAL"
+  },
+  "Section08": {
+    "titulo": "PRENSA",
+    "subtitulo": "Contáctenos vía correo electrónico"
+  },
+  "Section09": {
+    "titulo": "REGISTRO",
+    "mensagem": "Los campos con * son requeridos!",
+    "nome": "Nombre",
+    "cargo": "Cargo",
+    "empresa": "Empresa",
+    "termo": "Término de consentimiento y adhesión.",
+    "aceite1": "Declaro que he leído y acepto las normas de la",
+    "aceite2": "y estoy de acuerdo con los Términos y Reglamento.",
+    "documento": "Política de Privacidad y Protección de Datos Personales",
+    "cadastrar": "Resgistrar",
+    "aguarde": "Espere...",
+    "mensagemCadastro": "Su registro ha sido realizado",
+    "realizacao": "Realización",
+    "parceiros": "Socios"
+  },
+  "Section10": {
+    "titulo": "PROGRAMACIÓN",
+    "subtitulo": "OBTENGA SU ENTRADA GRATUITA"
+  },
+  "Section11": {
+    "titulo": "TV CURICACA"
+  }
+}

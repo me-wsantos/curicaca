@@ -1,0 +1,14 @@
+DATABASE_URL="file:./database.db"
+ANALYTICSPWD=xxxxxx
+
+NEXT_PUBLIC_GA_TRACKING=xxxxxxxxxx
+
+#email config
+MAIL_HOST=xxxxxxxxxx
+MAIL_PORT=xxxxxxxxxx
+MAIL_USER=xxxxxxxxxx
+MAIL_PASSWORD=xxxxxxxxxx
+
+#destinatarios
+MAIL_TO=email@email.com
+MAIL_CC=email@email.com

@@ -1,0 +1,107 @@
+{
+  "NavBar": {
+    "inicio": "Home",
+    "sobre": "About",
+    "noticias": "Press",
+    "cadastro": "TICKETS",
+    "painelParticipante": "Participant Panel"
+  },
+  "Footer": {
+    "slogan": "A NEW ERA, A NEW INDUSTRY",
+    "cadastro": "Tickets",
+    "faleConosco": "Contact Us",
+    "follow": "Follow us on social media"
+  },
+  "Section03": {
+    "industria": "INDUSTRY",
+    "inovacao": "INNOVATION",
+    "sustentabilidade": "SUSTAINABILITY",
+    "sobre": "ABOUT",
+    "p1": "The curicaca (Theristicus caudatus) is a bird typical of the Brazilian Cerrado, known for its unique gift: it sings to announce changes. With its melody, it heralds the arrival of a new era.",
+    "p2": "This new era will be marked by the largest and most comprehensive festival of innovation, sustainability, culture, and technological development in the country. Promoted by the Brazilian Agency for Industrial Development (ABDI) in collaboration with various national and international partners, Curicaca will connect Brasília and its Administrative Regions to the most cutting-edge trends in the world of industry.",
+    "p3": "It is the federal capital that drives the strengthening of national industry, consolidating itself as a reference on the calendar of major national and international events."
+  },
+  "Section05": {
+    "objetivos": "OBJECTIVES",
+    "objetivo1": "Consolidate the New Industrial Policy (NIB) as the largest industrial modernization project in Brazil",
+    "objetivo2": "Promote the sharing of innovative and sustainable practices",
+    "objetivo3": "Decarbonize Brazilian industry",
+    "objetivo4": "Expand collaboration between companies, universities, and technical schools",
+    "objetivo5": "Increase the technological maturity level of the national industry",
+    "objetivo6": "Foster technological solutions for productive, social, and environmental challenges, with a focus on climate"
+  },
+  "Section06": {
+    "titulo": "10 KNOWLEDGE PATHS",
+    "t1-desc-1": "RENEWABLE",
+    "t1-desc-2": "ENERGY",
+    "t1-desc-3": "AND ENERGY",
+    "t1-desc-4": "SUSTAINABILITY",
+
+    "t2-desc-1": "INNOVATION",
+    "t2-desc-2": "IN HEALTH AND",
+    "t2-desc-3": "BIOTECHNOLOGY",
+
+    "t3-desc-1": "DIGITAL",
+    "t3-desc-2": "TRANSFORMATION AND",
+    "t3-desc-3": "INDUSTRY 4.0",
+
+    "t4-desc-1": "SECURITY",
+    "t4-desc-2": "AND TECHNOLOGICAL",
+    "t4-desc-3": "DEFENSE",
+
+    "t5-desc-1": "GREEN",
+    "t5-desc-2": "INDUSTRY AND",
+    "t5-desc-3": "CIRCULAR",
+    "t5-desc-4": "ECONOMY",
+
+    "t6-desc-1": "SUSTAINABLE",
+    "t6-desc-2": "AGRIBUSINESS AND",
+    "t6-desc-3": "FAMILY",
+    "t6-desc-4": "FARMING",
+
+    "t7-desc-1": "SOCIAL",
+    "t7-desc-2": "INNOVATION AND",
+    "t7-desc-3": "REGIONAL",
+    "t7-desc-4": "DEVELOPMENT",
+
+    "t8-desc-1": "POLICIES AND",
+    "t8-desc-2": "REGULATION",
+
+    "t9-desc-1": "SUSTAINABLE",
+    "t9-desc-2": "INFRASTRUCTURE",
+    "t9-desc-3": "AND GREEN",
+    "t9-desc-4": "MOBILITY",
+
+    "t10-desc-1": "CREATIVE",
+    "t10-desc-2": "TECHNOLOGY",
+    "t10-desc-3": "AND DIGITAL",
+    "t10-desc-4": "INCLUSION"
+  },
+  "Section08": {
+    "titulo": "PRESS",
+    "subtitulo": "Contact us via e-mail to"
+  },
+  "Section09": {
+    "titulo": "REGISTRATION",
+    "mensagem": "Fields marked with * are required!",
+    "nome": "Name",
+    "cargo": "Role",
+    "empresa": "Company",
+    "termo": "Term of Consent and Agreement.",
+    "aceite1": "I confirm that I have read and agree to the",
+    "aceite2": "and I accept the Terms and Conditions.",
+    "documento": "Privacy Policy and Data Protection Terms",
+    "cadastrar": "Register",
+    "aguarde": "Wait...",
+    "mensagemCadastro": "Your registration has been completed",
+    "realizacao": "Organized by",
+    "parceiros": "Partners"
+  },
+  "Section10": {
+    "titulo": "PROGRAMMING",
+    "subtitulo": "GET YOUR FREE TICKET"
+  },
+  "Section11": {
+    "titulo": "CURICACA TV"
+  }
+}
