@@ -7,87 +7,80 @@ import { menuItems } from '../data/menuItems'
 import headerImg from "../../../public/img/logo-header-abdi.png";
 import { Link as LinkScroll } from 'react-scroll';
 import { PoppinsRegular } from '../fonts'
-
 import { useTranslations } from "next-intl";
-
 import DropLanguage from './drop-languages';
 
 const NavbarMobile = () => {
   const [showMenu, setShowMenu] = useState(false)
-
-  const handleShowMenu = (mobile: boolean) => {
-    if (mobile) setShowMenu(!showMenu);
-  }
-
   const translate = useTranslations("NavBar")
 
+  const handleShowMenu = () => {
+    setShowMenu(!showMenu);
+  }
+
   return (
-    <nav className="w-auto px-0 h-12 fixed top-0 right-0 left-0 z-10 p-3 mt-0 bg-black md:invisible lg:h-0">
-      <div className="w-full flex justify-between px-6">
-        <Link className="p-0" href="/" >
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black shadow-lg md:hidden">
+      <div className="flex items-center justify-between px-4 py-3">
+        <Link href="/" className="flex items-center">
           <Image
             src={headerImg}
             alt="Logo Curicaca"
-            width={250}
-            height={250}
-            className="fixed top-4 w-[60px] 1sm:w-[80px]"
+            width={60}
+            height={60}
+            className="w-[60px] h-auto"
           />
         </Link>
 
-
-        <div className='flex justify-end py-0 px-2'>
+        <div className="flex items-center gap-4">
           <DropLanguage />
-          <div className="ml-4">
-            {showMenu ?
-              <IoClose size={30} color='#ffff' onClick={() => handleShowMenu(true)} />
-              :
-              <GiHamburgerMenu size={30} color='#ffff' onClick={() => handleShowMenu(true)} />
-            }
-          </div>
+          <button 
+            onClick={handleShowMenu}
+            className="text-white focus:outline-none"
+            aria-label="Toggle menu"
+          >
+            {showMenu ? (
+              <IoClose size={30} />
+            ) : (
+              <GiHamburgerMenu size={30} />
+            )}
+          </button>
         </div>
       </div>
 
-      {showMenu &&
-        <div className="w-full flex flex-col items-start py-4 px-6 bg-black 1sm:items-end">
+      {showMenu && (
+        <div className="absolute top-full left-0 right-0 bg-black border-t border-gray-800">
+          <div className="px-4 py-2 space-y-4">
+            {menuItems.map((item) => (
+              <LinkScroll
+                key={item.id}
+                to={item.url}
+                spy={true}
+                smooth={true}
+                offset={item.offset}
+                duration={500}
+                onClick={() => setShowMenu(false)}
+                className="block text-white py-2 hover:text-curicaca-green-1 transition-colors"
+              >
+                <span className={PoppinsRegular.className}>
+                  {item.id === 1 ? translate('inicio') : 
+                   item.id === 2 ? translate('sobre') : 
+                   translate('noticias')}
+                </span>
+              </LinkScroll>
+            ))}
 
-          {menuItems.map((data, i) => (
-            <LinkScroll
-              to={data.url}
-              spy={true}
-              smooth={true}
-              offset={-10}
-              duration={500}
-              onClick={() => setShowMenu(false)}
-              className="w-full text-start text-white py-2 mb-4 1sm:text-end 1sm:px-4 1sm:w-[15rem]"
-            >
-              <span className={`${PoppinsRegular.className} w-full`}>
-                {data.id === 1 ? translate('inicio') : (data.id === 2 ? translate('sobre') : translate('noticias'))}
-              </span>
-            </LinkScroll>
-          ))}
-
-          <div className="bg-curicaca-red text-white text-sm px-4 py-1 mt-3 rounded-full" onClick={() => handleShowMenu(true)}>
             <Link
               href="/pt/taguatinga"
-              className="w-full text-start text-white py-2 mb-4 1sm:text-end 1sm:px-4 1sm:w-[15rem]"
+              className="block text-white bg-curicaca-red px-4 py-2 rounded-full text-center hover:bg-curicaca-red-2 transition-colors"
+              onClick={() => setShowMenu(false)}
             >
-              <span className={`${PoppinsRegular.className} w-full`}>
+              <span className={PoppinsRegular.className}>
                 {translate('cadastro')}
               </span>
             </Link>
           </div>
-          {/* <div className="bg-curicaca-red text-white text-sm px-4 py-1 mt-3 rounded-full" onClick={() => handleShowMenu(true)}>
-            <Link
-              href="http://painel.festivalcuricaca.com.br/login"
-              className="w-full text-start text-white py-2 mb-4 1sm:text-end 1sm:px-4 1sm:w-[15rem]"
-            >
-              <span className={`${PoppinsRegular.className} w-full`}>
-                {translate('painelParticipante')}
-              </span>
-            </Link>
-          </div> */}
         </div>
-      }
+      )}
     </nav>
   )
 }
